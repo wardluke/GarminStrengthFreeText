@@ -1,0 +1,14 @@
+{
+  "exercises": [
+    {
+      "exercise": "Air Squat",
+      "reps": 10,
+      "time": 0
+    },
+    {
+      "exercise": "Dead Hang",
+      "reps": 1,
+      "time": 30
+    }
+  ]
+}

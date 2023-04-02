@@ -1,0 +1,74 @@
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 7; ]
+import Toybox.Application;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 13; ]
+class JsonDataResourcesApp extends Application.AppBase{
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 16; ]
+    public
+    function initialize() as Void {
+C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_16_33_start:
+[ "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc" 17 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_16_33_stop:
+    }
+    //! Handle app startup
+    //! @param state Startup arguments
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 22; ]
+    public
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    //! Handle app shutdown
+    //! @param state Shutdown arguments
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 27; ]
+    public
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    //! Return the initial views for the app
+    //! @return Array Pair [View, InputDelegate]
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 32; ]
+    public
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_start:
+[ "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc" 33 8 ]
+        [ "C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_start" "C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_stop" ]
+        %mainView.1 = local;
+        %tmp.4 = getm $;
+        %tmp.5 = getv %tmp.4 :JsonDataResourcesView;
+        %tmp.1 = newc %tmp.5 ();
+        lputv %mainView.1 %tmp.1;
+[ "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc" 34 8 ]
+        [ "C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_start" "C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_stop" ]
+        %inputDelegate.2 = local;
+        %tmp.9 = getm $;
+        %tmp.10 = getv %tmp.9 :BaseInputDelegate;
+        %tmp.12 = lgetv %mainView.1;
+        %tmp.6 = newc %tmp.10 (%tmp.12);
+        lputv %inputDelegate.2 %tmp.6;
+[ "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc" 35 8 ]
+        %tmp.13 = newa Array<Views or InputDelegates> 2;
+        %tmp.15 = lgetv %mainView.1;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.19 = lgetv %inputDelegate.2;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 1 %tmp.19;
+        ret %tmp.21;
+C_Users_luke__AppData_Roaming_Garmin_ConnectIQ_Sdks_connectiq_sdk_win_4_2_3_2023_03_21_f4ba33709_samples_JsonDataResources_source_JsonDataResourcesApp_mc_32_72_stop:
+    }
+}
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\source\JsonDataResourcesApp.mc"; @line = 7; ]
+<init> {
+}

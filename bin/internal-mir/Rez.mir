@@ -1,0 +1,71 @@
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 15; ]
+    module JsonData {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 15; ]
+        <init> {
+        }
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var arrayResource as Symbol;
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var dictionaryResource as Symbol;
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var mixedArrayResource as Symbol;
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var singleValue as Symbol;
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        var dictionaryFromFile as Symbol;
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; ]
+        var arrayFromFile as Symbol;
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 24; ]
+    module Layouts {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 24; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 27; ]
+    module Menus {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 27; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 30; ]
+    module Strings {
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 30; ]
+        <init> {
+        }
+        [ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+}
+[ @file = "C:\Users\luke_\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-4.2.3-2023-03-21-f4ba33709\samples\JsonDataResources\bin\gen\006-B2697-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}
